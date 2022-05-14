@@ -1,0 +1,18 @@
+.a {
+    background: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.b {
+    background: green;
+    color: white;
+    font-size: 18px;
+}
+
+.c {
+    background: orange;
+    font-size: 18px;
+}
