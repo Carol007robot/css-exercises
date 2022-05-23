@@ -1,0 +1,126 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+    margin: 0;
+    background:#1F2937;
+    font-family: robot, serif;
+    color: white;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 170px;
+    margin-bottom: 120px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    display: flex;
+    padding: 0 170px;
+    margin-bottom: 120px;
+}
+
+.image {
+    display: flex;
+    flex-shrink: 0;
+    padding: 80px 120px;
+    background-color: grey;
+    align-items: center;
+}
+
+.left {
+    margin-right: 40px;
+}
+.website {
+    display: flex;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+
+button {
+    background-color: #3882F6;
+    padding: 8px 33px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 10px;
+}
+
+.body-middle {
+    background-color: white;
+    color: black;
+    padding: 50px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    text-align: center;
+}
+
+.box {
+    width: 120px;
+    height: 120px;  
+    border: 2px solid #3882F6;  
+    border-radius: 8px;
+}
+
+.info {
+    max-width: 120px;
+}
+
+.world {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 100px;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    color: black;
+    padding: 50px;
+}
+
+
